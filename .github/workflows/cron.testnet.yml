@@ -4,8 +4,6 @@ on:
     - cron: "*/55 * * * *" # every 55 mins
   push:
 env:
-  ETHEREUM_GOERLI_RPC_URL: ${{secrets.ETHEREUM_GOERLI_RPC_URL}}
-  ETHEREUM_SEPOLIA_RPC_URL: ${{secrets.ETHEREUM_SEPOLIA_RPC_URL}}
   OPTIMISM_GOERLI_RPC_URL: ${{secrets.OPTIMISM_GOERLI_RPC_URL}}
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
