@@ -38,7 +38,7 @@ jobs:
       # 1. Install
       - name: Install PoolTogether V5 CLI
         run: |
-          npm install -g @generationsoftware/pt-v5-cli@0.0.1-beta.49
+          npm install -g @generationsoftware/pt-v5-cli@0.0.1-beta.52
           echo "$(npm -g bin)" >> $GITHUB_PATH
       # 2. Compute
       - name: Optimism Goerli Draw Prizes
@@ -46,7 +46,7 @@ jobs:
         uses: chuckbergeron/executable-wrapper@f94b435740d6b958c2d7eb76c77657e761819cfe
         continue-on-error: true
         with:
-          run_command: ptv5 compute drawPrizes -o ./prizes -p 0xb91194FB89561c2Bd7fC26bE68e5EAe5b00f5320 -c 420
+          run_command: ptv5 compute drawPrizes -o ./prizes -p 0x8faf98698e4ff29149a8a9d06db20e3509f3754b -c 420
       # 3. Commit
       - name: Commit Optimism Goerli
         if: steps.drawPrizesOptimismGoerli.outputs.runStatus == 'true'
