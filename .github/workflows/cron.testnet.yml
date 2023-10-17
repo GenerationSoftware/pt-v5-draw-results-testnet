@@ -38,7 +38,7 @@ jobs:
       # 1. Install
       - name: Install PoolTogether V5 CLI
         run: |
-          npm install -g @generationsoftware/pt-v5-cli@0.0.1-beta.48
+          npm install -g @generationsoftware/pt-v5-cli@0.0.1-beta.49
           echo "$(npm -g bin)" >> $GITHUB_PATH
       # 2. Compute
       - name: Optimism Goerli Draw Prizes

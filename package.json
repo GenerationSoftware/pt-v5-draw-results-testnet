@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Periodically runs code to lookup winners for each draw and store the results.",
   "main": "index.js",
-  "repository": "git@github.com:pooltogether/v5-draw-results.git",
-  "author": "PoolTogether Inc.",
+  "repository": "git@github.com:generationsoftware/pt-v5-draw-results.git",
+  "author": {
+    "name": "G9 Software Inc.",
+    "url": "https://github.com/generationsoftware"
+  },
   "license": "MIT",
   "scripts": {
     "pwd": "echo ${PWD}"
