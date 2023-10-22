@@ -1,8 +1,8 @@
 {
   "status": "SUCCESS",
-  "createdAt": 1697937776291,
-  "updatedAt": 1697937849189,
-  "runtime": 73,
+  "createdAt": 1697940510371,
+  "updatedAt": 1697940613405,
+  "runtime": 104,
   "meta": {
     "numVaults": 4,
     "numTiers": 4,
@@ -18,10 +18,10 @@
       "3": "5651496403248295478"
     },
     "vaultPortions": {
-      "0x1eadb947b1e66ff3575f9fd0fd4fb4cc8fcad8fd": "597537525",
-      "0x9e025155f7bd3b17e26bce811f7b6f075973570a": "254653533083417",
-      "0xbc6d40984ddb1482bbbf1433c1c1f0380f74cacd": "353475514539819929",
-      "0xc3d6a8d76b304e0716b3227c00a83187340dc846": "646269829536946552"
+      "0x1eadb947b1e66ff3575f9fd0fd4fb4cc8fcad8fd": "544129092",
+      "0x9e025155f7bd3b17e26bce811f7b6f075973570a": "231892375001867",
+      "0xbc6d40984ddb1482bbbf1433c1c1f0380f74cacd": "353547758853951121",
+      "0xc3d6a8d76b304e0716b3227c00a83187340dc846": "646220346594530640"
     }
   }
 }
