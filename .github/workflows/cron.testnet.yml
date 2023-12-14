@@ -1,7 +1,7 @@
 name: CronJob
 on:
   schedule:
-    - cron: "0 1,4,5,6,7,8,9,10,14,18,22 * * *" # on the hour for hours 1,4,5,6,7,8,9,10,14,18, and 22
+    - cron: "0 */2 * * *" # “At minute 0 past every 2nd hour.”
   push:
 env:
   OPTIMISM_SEPOLIA_RPC_URL: ${{secrets.OPTIMISM_SEPOLIA_RPC_URL}}
