@@ -32,10 +32,6 @@ jobs:
       # -------------------------------------------------------- #
       # Arbitrum Sepolia
       # -------------------------------------------------------- #
-      # 0. Uninstall
-      # - name: Uninstall Previous PoolTogether V5 CLI
-      #   run: |
-      #     npm uninstall -g @generationsoftware/pt-v5-cli
       # 1. Install
       - name: Install PoolTogether V5 CLI
         run: |
@@ -68,11 +64,45 @@ jobs:
           branch: ${{ github.ref }}
           force: true
       # -------------------------------------------------------- #
+      # Optimism Sepolia
+      # -------------------------------------------------------- #
+      # 1. Install
+      - name: Install PoolTogether V5 CLI
+        run: |
+          npm install -g @generationsoftware/pt-v5-cli@1.0.3
+          echo "$(npm -g bin)" >> $GITHUB_PATH
+      # 2. Compute
+      - name: Optimism Sepolia Draw Prizes
+        id: drawPrizesOptimismSepolia
+        uses: chuckbergeron/executable-wrapper@f94b435740d6b958c2d7eb76c77657e761819cfe
+        continue-on-error: true
+        with:
+          run_command: ptv5 compute drawPrizes -o ./prizes -p 0x46547a849f68178208490Cdd491Df15a5bEeA4B2 -c 11155420
+      # 3. Commit
+      - name: Commit Optimism Sepolia
+        if: steps.drawPrizesOptimismSepolia.outputs.runStatus == 'true'
+        continue-on-error: true
+        run: |
+          git config pull.rebase false
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git pull
+          git add ./prizes/421614
+          git commit -m "Add testnet draw for Optimism Sepolia draw #${{steps.drawPrizesOptimismSepolia.outputs.drawId}}"
+      # 4. Push
+      - name: Push changes (if required)
+        uses: ad-m/github-push-action@master
+        if: steps.drawPrizesOptimismSepolia.outputs.runStatus == 'true'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          force: true
+      # -------------------------------------------------------- #
       # Comment Error
       # -------------------------------------------------------- #
       - name: Comment Error
         id: commentError
-        if: steps.drawPrizesArbitrumSepolia.outputs.exitcode == 1
+        if: steps.drawPrizesArbitrumSepolia.outputs.exitcode == 1 || steps.drawPrizesOptimismSepolia.outputs.exitcode == 1
         uses: actions/github-script@v5
         continue-on-error: true
         with:
