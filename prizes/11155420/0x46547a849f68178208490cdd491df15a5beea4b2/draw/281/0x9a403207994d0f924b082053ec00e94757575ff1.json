@@ -4,7 +4,7 @@
     "winner": "0x9a403207994d0f924b082053ec00e94757575ff1",
     "tier": 3,
     "prizeIndex": 52,
-    "claimed": false,
+    "claimed": true,
     "amount": "551698848470769964"
   },
   {
@@ -12,7 +12,7 @@
     "winner": "0x9a403207994d0f924b082053ec00e94757575ff1",
     "tier": 3,
     "prizeIndex": 53,
-    "claimed": false,
+    "claimed": true,
     "amount": "551698848470769964"
   }
 ]
