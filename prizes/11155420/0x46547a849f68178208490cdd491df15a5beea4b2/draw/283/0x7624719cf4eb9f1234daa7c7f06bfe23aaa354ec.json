@@ -4,7 +4,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 4,
     "prizeIndex": 120,
-    "claimed": false,
+    "claimed": true,
     "amount": "312349717347235844"
   },
   {
@@ -12,7 +12,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 4,
     "prizeIndex": 255,
-    "claimed": false,
+    "claimed": true,
     "amount": "312349717347235844"
   },
   {
@@ -20,7 +20,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 5,
     "prizeIndex": 70,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -28,7 +28,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 5,
     "prizeIndex": 400,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -36,7 +36,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 5,
     "prizeIndex": 543,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -44,7 +44,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 5,
     "prizeIndex": 681,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -52,7 +52,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 5,
     "prizeIndex": 720,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -60,7 +60,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 5,
     "prizeIndex": 754,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -68,7 +68,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 5,
     "prizeIndex": 841,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -76,7 +76,7 @@
     "winner": "0x7624719cf4eb9f1234daa7c7f06bfe23aaa354ec",
     "tier": 5,
     "prizeIndex": 992,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   }
 ]

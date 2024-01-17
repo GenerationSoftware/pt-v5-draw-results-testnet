@@ -4,7 +4,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 4,
     "prizeIndex": 89,
-    "claimed": false,
+    "claimed": true,
     "amount": "312349717347235844"
   },
   {
@@ -12,7 +12,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 4,
     "prizeIndex": 94,
-    "claimed": false,
+    "claimed": true,
     "amount": "312349717347235844"
   },
   {
@@ -20,7 +20,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 4,
     "prizeIndex": 234,
-    "claimed": false,
+    "claimed": true,
     "amount": "312349717347235844"
   },
   {
@@ -28,7 +28,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 5,
     "prizeIndex": 23,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -36,7 +36,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 5,
     "prizeIndex": 77,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -44,7 +44,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 5,
     "prizeIndex": 139,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -52,7 +52,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 5,
     "prizeIndex": 141,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -60,7 +60,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 5,
     "prizeIndex": 790,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -68,7 +68,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 5,
     "prizeIndex": 837,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   },
   {
@@ -76,7 +76,7 @@
     "winner": "0x6c2fed8d33085e3fafd14763d89ed42a2b2f91a0",
     "tier": 5,
     "prizeIndex": 1013,
-    "claimed": false,
+    "claimed": true,
     "amount": "68076220447474478"
   }
 ]
