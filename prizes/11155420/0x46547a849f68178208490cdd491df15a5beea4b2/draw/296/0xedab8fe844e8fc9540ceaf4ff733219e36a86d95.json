@@ -3,23 +3,23 @@
     "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
     "winner": "0xedab8fe844e8fc9540ceaf4ff733219e36a86d95",
     "tier": 4,
-    "prizeIndex": 48,
-    "claimed": true,
+    "prizeIndex": 120,
+    "claimed": false,
     "amount": "437025697964129720"
   },
   {
     "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
     "winner": "0xedab8fe844e8fc9540ceaf4ff733219e36a86d95",
     "tier": 4,
-    "prizeIndex": 160,
-    "claimed": true,
+    "prizeIndex": 236,
+    "claimed": false,
     "amount": "437025697964129720"
   },
   {
     "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
     "winner": "0xedab8fe844e8fc9540ceaf4ff733219e36a86d95",
     "tier": 5,
-    "prizeIndex": 140,
+    "prizeIndex": 42,
     "claimed": false,
     "amount": "95249190581925708"
   },
@@ -27,7 +27,7 @@
     "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
     "winner": "0xedab8fe844e8fc9540ceaf4ff733219e36a86d95",
     "tier": 5,
-    "prizeIndex": 284,
+    "prizeIndex": 88,
     "claimed": false,
     "amount": "95249190581925708"
   },
@@ -35,7 +35,7 @@
     "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
     "winner": "0xedab8fe844e8fc9540ceaf4ff733219e36a86d95",
     "tier": 5,
-    "prizeIndex": 323,
+    "prizeIndex": 357,
     "claimed": false,
     "amount": "95249190581925708"
   },
@@ -43,7 +43,7 @@
     "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
     "winner": "0xedab8fe844e8fc9540ceaf4ff733219e36a86d95",
     "tier": 5,
-    "prizeIndex": 696,
+    "prizeIndex": 635,
     "claimed": false,
     "amount": "95249190581925708"
   },
@@ -51,7 +51,7 @@
     "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
     "winner": "0xedab8fe844e8fc9540ceaf4ff733219e36a86d95",
     "tier": 5,
-    "prizeIndex": 738,
+    "prizeIndex": 747,
     "claimed": false,
     "amount": "95249190581925708"
   },
@@ -59,7 +59,7 @@
     "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
     "winner": "0xedab8fe844e8fc9540ceaf4ff733219e36a86d95",
     "tier": 5,
-    "prizeIndex": 964,
+    "prizeIndex": 841,
     "claimed": false,
     "amount": "95249190581925708"
   }
