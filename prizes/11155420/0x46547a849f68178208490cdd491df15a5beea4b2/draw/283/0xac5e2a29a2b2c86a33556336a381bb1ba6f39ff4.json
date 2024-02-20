@@ -1,0 +1,74 @@
+[
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xac5e2a29a2b2c86a33556336a381bb1ba6f39ff4",
+    "tier": 3,
+    "prizeIndex": 22,
+    "claimed": true,
+    "amount": "1249398869388943378"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xac5e2a29a2b2c86a33556336a381bb1ba6f39ff4",
+    "tier": 4,
+    "prizeIndex": 58,
+    "claimed": true,
+    "amount": "312349717347235844"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xac5e2a29a2b2c86a33556336a381bb1ba6f39ff4",
+    "tier": 5,
+    "prizeIndex": 376,
+    "claimed": true,
+    "amount": "68076220447474478"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xac5e2a29a2b2c86a33556336a381bb1ba6f39ff4",
+    "tier": 5,
+    "prizeIndex": 428,
+    "claimed": true,
+    "amount": "68076220447474478"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xac5e2a29a2b2c86a33556336a381bb1ba6f39ff4",
+    "tier": 5,
+    "prizeIndex": 491,
+    "claimed": true,
+    "amount": "68076220447474478"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xac5e2a29a2b2c86a33556336a381bb1ba6f39ff4",
+    "tier": 5,
+    "prizeIndex": 556,
+    "claimed": true,
+    "amount": "68076220447474478"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xac5e2a29a2b2c86a33556336a381bb1ba6f39ff4",
+    "tier": 5,
+    "prizeIndex": 687,
+    "claimed": true,
+    "amount": "68076220447474478"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xac5e2a29a2b2c86a33556336a381bb1ba6f39ff4",
+    "tier": 5,
+    "prizeIndex": 957,
+    "claimed": true,
+    "amount": "68076220447474478"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xac5e2a29a2b2c86a33556336a381bb1ba6f39ff4",
+    "tier": 5,
+    "prizeIndex": 997,
+    "claimed": true,
+    "amount": "68076220447474478"
+  }
+]

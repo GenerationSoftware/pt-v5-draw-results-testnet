@@ -1,0 +1,74 @@
+[
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xf313054eac5a9981ace6c11ce8cb3a37784b4a85",
+    "tier": 3,
+    "prizeIndex": 37,
+    "claimed": false,
+    "amount": "1748102791856518883"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xf313054eac5a9981ace6c11ce8cb3a37784b4a85",
+    "tier": 4,
+    "prizeIndex": 219,
+    "claimed": false,
+    "amount": "437025697964129720"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xf313054eac5a9981ace6c11ce8cb3a37784b4a85",
+    "tier": 4,
+    "prizeIndex": 233,
+    "claimed": false,
+    "amount": "437025697964129720"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xf313054eac5a9981ace6c11ce8cb3a37784b4a85",
+    "tier": 5,
+    "prizeIndex": 77,
+    "claimed": false,
+    "amount": "95249190581925708"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xf313054eac5a9981ace6c11ce8cb3a37784b4a85",
+    "tier": 5,
+    "prizeIndex": 180,
+    "claimed": false,
+    "amount": "95249190581925708"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xf313054eac5a9981ace6c11ce8cb3a37784b4a85",
+    "tier": 5,
+    "prizeIndex": 244,
+    "claimed": false,
+    "amount": "95249190581925708"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xf313054eac5a9981ace6c11ce8cb3a37784b4a85",
+    "tier": 5,
+    "prizeIndex": 515,
+    "claimed": false,
+    "amount": "95249190581925708"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xf313054eac5a9981ace6c11ce8cb3a37784b4a85",
+    "tier": 5,
+    "prizeIndex": 696,
+    "claimed": false,
+    "amount": "95249190581925708"
+  },
+  {
+    "vault": "0x15e5b4813942fa51835ceb7aff13f771c398d062",
+    "winner": "0xf313054eac5a9981ace6c11ce8cb3a37784b4a85",
+    "tier": 5,
+    "prizeIndex": 827,
+    "claimed": false,
+    "amount": "95249190581925708"
+  }
+]
