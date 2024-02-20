@@ -5,7 +5,6 @@ on:
   push:
 env:
   OPTIMISM_SEPOLIA_RPC_URL: ${{secrets.OPTIMISM_SEPOLIA_RPC_URL}}
-  ARBITRUM_SEPOLIA_RPC_URL: ${{secrets.ARBITRUM_SEPOLIA_RPC_URL}}
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:
@@ -30,54 +29,20 @@ jobs:
         with:
           install-command: yarn
       # -------------------------------------------------------- #
-      # Arbitrum Sepolia
+      # Optimism Sepolia
       # -------------------------------------------------------- #
       # 1. Install
       - name: Install PoolTogether V5 CLI
         run: |
-          npm install -g @generationsoftware/pt-v5-cli@1.0.4
+          npm install -g @generationsoftware/pt-v5-cli@1.0.5
           echo "$(npm -g bin)" >> $GITHUB_PATH
-      # 2. Compute
-      - name: Arbitrum Sepolia Draw Prizes
-        id: drawPrizesArbitrumSepolia
-        uses: chuckbergeron/executable-wrapper@f94b435740d6b958c2d7eb76c77657e761819cfe
-        continue-on-error: true
-        with:
-          run_command: ptv5 compute drawPrizes -o ./prizes -p 0x6Fd1dF849DFC4F76F0B15ba0c8D3e99FF84817f1 -c 421614
-      # 3. Commit
-      - name: Commit Arbitrum Sepolia
-        if: steps.drawPrizesArbitrumSepolia.outputs.runStatus == 'true'
-        continue-on-error: true
-        run: |
-          git config pull.rebase false
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git pull
-          git add ./prizes/421614
-          git commit -m "Add testnet draw for Arbitrum Sepolia draw #${{steps.drawPrizesArbitrumSepolia.outputs.drawId}}"
-      # 4. Push
-      - name: Push changes (if required)
-        uses: ad-m/github-push-action@master
-        if: steps.drawPrizesArbitrumSepolia.outputs.runStatus == 'true'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-          force: true
-      # -------------------------------------------------------- #
-      # Optimism Sepolia
-      # -------------------------------------------------------- #
-      # 1. Install
-      # - name: Install PoolTogether V5 CLI
-      #   run: |
-      #     npm install -g @generationsoftware/pt-v5-cli@1.0.4
-      #     echo "$(npm -g bin)" >> $GITHUB_PATH
       # 2. Compute
       - name: Optimism Sepolia Draw Prizes
         id: drawPrizesOptimismSepolia
         uses: chuckbergeron/executable-wrapper@f94b435740d6b958c2d7eb76c77657e761819cfe
         continue-on-error: true
         with:
-          run_command: ptv5 compute drawPrizes -o ./prizes -p 0x46547a849f68178208490Cdd491Df15a5bEeA4B2 -c 11155420
+          run_command: ptv5 compute drawPrizes -o ./prizes -p 0xbf4424d8c9d738d1b768cd8f2d3fa8866c739332 -c 11155420
       # 3. Commit
       - name: Commit Optimism Sepolia
         if: steps.drawPrizesOptimismSepolia.outputs.runStatus == 'true'
