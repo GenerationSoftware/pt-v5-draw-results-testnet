@@ -1,0 +1,18 @@
+[
+  {
+    "vault": "0x170de99261a497d5b29aa2279cc2f3da0eb09b4b",
+    "winner": "0x6e35ff9828fdf3d1d05fed55992a47a50cea8a02",
+    "tier": 3,
+    "prizeIndex": 1,
+    "claimed": false,
+    "amount": "43452302464296307803"
+  },
+  {
+    "vault": "0x170de99261a497d5b29aa2279cc2f3da0eb09b4b",
+    "winner": "0x6e35ff9828fdf3d1d05fed55992a47a50cea8a02",
+    "tier": 3,
+    "prizeIndex": 16,
+    "claimed": false,
+    "amount": "43452302464296307803"
+  }
+]
