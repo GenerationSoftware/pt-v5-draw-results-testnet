@@ -1,7 +1,7 @@
 name: CronJob
 on:
   schedule:
-    - cron: "0 */2 * * *" # “At minute 0 past every 2nd hour.”
+    - cron: "*/30 * * * *" # “every 30 minutes.”
   push:
 env:
   OPTIMISM_GOERLI_RPC_URL: ${{secrets.OPTIMISM_GOERLI_RPC_URL}}
