@@ -4,7 +4,7 @@ on:
     - cron: "0 */2 * * *" # “At minute 0 past every 2nd hour.”
   push:
 env:
-  OPTIMISM_SEPOLIA_RPC_URL: ${{secrets.OPTIMISM_SEPOLIA_RPC_URL}}
+  OPTIMISM_GOERLI_RPC_URL: ${{secrets.OPTIMISM_GOERLI_RPC_URL}}
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:
@@ -29,7 +29,7 @@ jobs:
         with:
           install-command: yarn
       # -------------------------------------------------------- #
-      # Optimism Sepolia
+      # Optimism Goerli
       # -------------------------------------------------------- #
       # 1. Install
       - name: Install PoolTogether V5 CLI
@@ -37,27 +37,27 @@ jobs:
           npm install -g @generationsoftware/pt-v5-cli@1.0.5
           echo "$(npm -g bin)" >> $GITHUB_PATH
       # 2. Compute
-      - name: Optimism Sepolia Draw Prizes
-        id: drawPrizesOptimismSepolia
+      - name: Optimism Goerli Draw Prizes
+        id: drawPrizesOptimismGoerli
         uses: chuckbergeron/executable-wrapper@f94b435740d6b958c2d7eb76c77657e761819cfe
         continue-on-error: true
         with:
-          run_command: ptv5 compute drawPrizes -o ./prizes -p 0xbf4424d8c9d738d1b768cd8f2d3fa8866c739332 -c 11155420
+          run_command: ptv5 compute drawPrizes -o ./prizes -p 0x6cdd88A97801aD20F2dcfd14f1F9370e54757536 -c 420
       # 3. Commit
-      - name: Commit Optimism Sepolia
-        if: steps.drawPrizesOptimismSepolia.outputs.runStatus == 'true'
+      - name: Commit Optimism Goerli
+        if: steps.drawPrizesOptimismGoerli.outputs.runStatus == 'true'
         continue-on-error: true
         run: |
           git config pull.rebase false
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git pull
-          git add ./prizes/11155420
-          git commit -m "Add testnet draw for Optimism Sepolia draw #${{steps.drawPrizesOptimismSepolia.outputs.drawId}}"
+          git add ./prizes/420
+          git commit -m "Add testnet draw for Optimism Goerli draw #${{steps.drawPrizesOptimismGoerli.outputs.drawId}}"
       # 4. Push
       - name: Push changes (if required)
         uses: ad-m/github-push-action@master
-        if: steps.drawPrizesOptimismSepolia.outputs.runStatus == 'true'
+        if: steps.drawPrizesOptimismGoerli.outputs.runStatus == 'true'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
@@ -67,7 +67,7 @@ jobs:
       # -------------------------------------------------------- #
       - name: Comment Error
         id: commentError
-        if: steps.drawPrizesArbitrumSepolia.outputs.exitcode == 1 || steps.drawPrizesOptimismSepolia.outputs.exitcode == 1
+        if: steps.drawPrizesArbitrumGoerli.outputs.exitcode == 1 || steps.drawPrizesOptimismGoerli.outputs.exitcode == 1
         uses: actions/github-script@v5
         continue-on-error: true
         with:
