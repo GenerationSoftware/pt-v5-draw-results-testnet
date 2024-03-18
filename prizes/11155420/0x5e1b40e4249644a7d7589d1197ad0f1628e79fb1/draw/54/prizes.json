@@ -4,7 +4,7 @@
     "winner": "0xf3cb831e7574f29619ede95587464bc970b7b9cc",
     "tier": 2,
     "prizeIndex": 7,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -36,7 +36,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 1,
     "prizeIndex": 0,
-    "claimed": false,
+    "claimed": true,
     "amount": "37737847306927539"
   },
   {
@@ -44,7 +44,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 1,
     "prizeIndex": 1,
-    "claimed": false,
+    "claimed": true,
     "amount": "37737847306927539"
   },
   {
@@ -52,7 +52,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 1,
     "prizeIndex": 2,
-    "claimed": false,
+    "claimed": true,
     "amount": "37737847306927539"
   },
   {
@@ -60,7 +60,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 1,
     "prizeIndex": 3,
-    "claimed": false,
+    "claimed": true,
     "amount": "37737847306927539"
   },
   {
@@ -68,7 +68,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 1,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -76,7 +76,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 5,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -84,7 +84,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 6,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -92,7 +92,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 7,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -100,7 +100,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 9,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -108,7 +108,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 10,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -116,7 +116,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 11,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -124,7 +124,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 12,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -132,7 +132,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 13,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -140,7 +140,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 14,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -148,7 +148,7 @@
     "winner": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
     "tier": 2,
     "prizeIndex": 15,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -508,7 +508,7 @@
     "winner": "0x1169333d6c2f5bb5e3f8a1c075bc4d068e5ea41e",
     "tier": 2,
     "prizeIndex": 0,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -516,7 +516,7 @@
     "winner": "0x1169333d6c2f5bb5e3f8a1c075bc4d068e5ea41e",
     "tier": 2,
     "prizeIndex": 7,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -524,7 +524,7 @@
     "winner": "0x1169333d6c2f5bb5e3f8a1c075bc4d068e5ea41e",
     "tier": 2,
     "prizeIndex": 13,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
@@ -532,7 +532,7 @@
     "winner": "0x1169333d6c2f5bb5e3f8a1c075bc4d068e5ea41e",
     "tier": 2,
     "prizeIndex": 14,
-    "claimed": false,
+    "claimed": true,
     "amount": "349326545061320"
   },
   {
