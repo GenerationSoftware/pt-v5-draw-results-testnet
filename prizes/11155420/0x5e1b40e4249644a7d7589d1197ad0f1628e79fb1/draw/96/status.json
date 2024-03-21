@@ -1,0 +1,46 @@
+{
+  "status": "SUCCESS",
+  "createdAt": 1711044905690,
+  "updatedAt": 1711045371761,
+  "runtime": 467,
+  "meta": {
+    "numVaults": 8,
+    "numTiers": 5,
+    "numPrizeIndices": 341,
+    "numAccounts": 1244,
+    "numPrizes": 317,
+    "prizesByTier": {
+      "2": {
+        "total": 17,
+        "claimed": 17
+      },
+      "3": {
+        "total": 60,
+        "claimed": 60
+      },
+      "4": {
+        "total": 240,
+        "claimed": 240
+      }
+    },
+    "prizePoolReserve": "0",
+    "amountsTotal": "63437900623330775271",
+    "tierPrizeAmounts": {
+      "0": "62602889462489953743",
+      "1": "790834909760544953",
+      "2": "43996434441132578",
+      "3": "143853311315198",
+      "4": "35963327828799"
+    },
+    "vaultPortions": {
+      "0x13e37b0ca8b48fc2818c177c24635f90c1495c5c": "29535083514188017",
+      "0x332b1eb2cc4046954725ebdfb8143fb8354ea9a7": "5760282313758995",
+      "0x35f65c81b332ed0cdce72e841db4384bc12f8326": "0",
+      "0x602d77e900ecd48ac9b51151936dcc5efe2e7fae": "6810077610118365",
+      "0x98ced5d595e8981756f063db8d3c44a6be9a8f86": "403005077680731970",
+      "0xa2b0321b671a83a98ff1f5a680b700864f57c6e7": "467285463663086210",
+      "0xd96702995b2bbd78a9a39ef86f4fa5f9704fdc7d": "870987149150097",
+      "0xe77db9f8b68bc47a82d4f47e68fb57535df0086e": "86733028068966343"
+    }
+  }
+}
