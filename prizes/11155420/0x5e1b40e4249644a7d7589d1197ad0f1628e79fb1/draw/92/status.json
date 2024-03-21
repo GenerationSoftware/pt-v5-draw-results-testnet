@@ -1,26 +1,22 @@
 {
   "status": "SUCCESS",
-  "createdAt": 1711014092894,
-  "updatedAt": 1711014504395,
-  "runtime": 412,
+  "createdAt": 1711016064829,
+  "updatedAt": 1711016566863,
+  "runtime": 503,
   "meta": {
     "numVaults": 8,
     "numTiers": 5,
     "numPrizeIndices": 341,
     "numAccounts": 1244,
-    "numPrizes": 336,
+    "numPrizes": 318,
     "prizesByTier": {
-      "2": {
-        "total": 6,
-        "claimed": 6
-      },
       "3": {
-        "total": 71,
-        "claimed": 71
+        "total": 67,
+        "claimed": 0
       },
       "4": {
-        "total": 259,
-        "claimed": 259
+        "total": 251,
+        "claimed": 0
       }
     },
     "prizePoolReserve": "0",
