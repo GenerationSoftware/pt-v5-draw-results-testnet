@@ -9,6 +9,7 @@ env:
 permissions: write-all
 jobs:
   runCLI:
+    if: ${{ false }} # <- This make sure the workflow is skipped without any alert (deprecated in favor of pt-v5-winners-testnet)
     name: PrizePool Prizes Computation
     runs-on: ${{ matrix.os }}
     strategy:
